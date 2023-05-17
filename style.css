@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&family=Montserrat:wght@600&family=Sora:wght@600&display=swap");
+
+.start {
+  width: 650px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: white;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  text-align: center;
+
+  border-radius: 2%;
+  font-family: "Crimson Text", serif;
+}
+
+h1 {
+  color: black;
+}
+
+p {
+  font-size: 20px;
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.second {
+  position: absolute;
+  top: 60px;
+  width: 190px;
+  height: 220px;
+}
+
+a {
+  display: grid;
+  width: 50px;
+  height: 50px;
+  border-radius: 30%;
+  justify-content: center;
+}
+
+#img {
+  width: 30px;
+  border-radius: 10%;
+  align-self: center;
+}
+
+.third {
+  height: 100px;
+  width: 300px;
+  justify-content: space-between;
+}
+
+.r1 {
+  display: grid;
+  width: 50px;
+  height: 50px;
+  background-color: #ffc3bd;
+  border-radius: 30%;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+}
+
+.r2 {
+  display: grid;
+  width: 50px;
+  height: 50px;
+  background-color: #dbebeb;
+  border-radius: 30%;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.r3 {
+  display: grid;
+  width: 50px;
+  height: 50px;
+  background-color: #c8eca4;
+  border-radius: 30%;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+}
